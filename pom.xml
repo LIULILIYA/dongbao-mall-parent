@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>dongbao-mall-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>15</source>
+                    <target>15</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <modules>
+        <module>dongbao-mall-api</module>
+        <module>dongbao-mall-generator</module>
+        <module>dongbao-mall-application</module>
+        <module>dongbao-mall-common</module>
+        <module>dongbao-mall-service</module>
+        <module>dongbao-mall-api/dongbao-mall-oms-api</module>
+        <module>dongbao-mall-api/dongbao-mall-sms-api</module>
+        <module>dongbao-mall-service/dongbao-mall-dictionary</module>
+        <module>dongbao-mall-service/dongbao-mall-sms</module>
+        <module>dongbao-mall-service/dongbao-mall-cms</module>
+        <module>dongbao-mall-manager-web</module>
+        <module>dongbao-mall-manager-web/dongbao-mall-portal-web</module>
+        <module>dongbao-mall-manager-web/dongbao-mall-job</module>
+        <module>dongbao-mall-api/dongbao-mall-ums-api</module>
+        <module>dongbao-mall-api/dongbao-mall-pms-api</module>
+        <module>dongbao-mall-api/dongbao-mall-cart-api</module>
+        <module>dongbao-mall-api/dongbao-mall-dictionary-api</module>
+        <module>dongbao-mall-api/dongbao-mall-pay-api</module>
+        <module>dongbao-mall-api/dongbao-mall-cms-api</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+    </properties>
+
+</project>

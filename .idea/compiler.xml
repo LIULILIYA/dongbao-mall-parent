@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dongbao-mall-pms-api" />
+        <module name="dongbao-mall-pms" />
+        <module name="dongbao-mall-cms-api" />
+        <module name="dongbao-mall-oms" />
+        <module name="dongbao-mall-manager-web" />
+        <module name="dongbao-mall-generator" />
+        <module name="dongbao-mall-pay" />
+        <module name="dongbao-mall-cart" />
+        <module name="dongbao-mall-dictionary" />
+        <module name="dongbao-mall-dictionary-api" />
+        <module name="dongbao-mall-application" />
+        <module name="dongbao-mall-cms" />
+        <module name="dongbao-mall-cart-api" />
+        <module name="dongbao-mall-oms-api" />
+        <module name="dongbao-mall-sms-api" />
+        <module name="dongbao-mall-common-base" />
+        <module name="dongbao-mall-api" />
+        <module name="dongbao-mall-pay-api" />
+        <module name="dongbao-mall-ums" />
+        <module name="dongbao-mall-common-util" />
+        <module name="dongbao-mall-ums-api" />
+        <module name="dongbao-mall-sms" />
+        <module name="dongbao-mall-portal-web" />
+        <module name="dongbao-mall-job" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="dongbao-mall-common" target="15" />
+      <module name="dongbao-mall-pms" target="15" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
